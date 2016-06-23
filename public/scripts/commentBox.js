@@ -3,7 +3,7 @@
 const CommentBox = React.createClass({
 	render: () => {
 		return (
-			<div classname="commentBox">
+			<div className="commentBox">
 				<CommentList />
 				<CommentForm />
 			</div>

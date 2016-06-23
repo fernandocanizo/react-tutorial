@@ -4,6 +4,10 @@
 const CommentList = React.createClass({
 	render: () => {
 		return (
-			<div classname="commentList">commentList</div>
+			<div className="CommentList">
+				<Comment author="Pepe Hongo">as I was just saying...</Comment>
+				<Comment author="Nobody">just shut up</Comment>
+			</div>
 		);
+	}
 });
