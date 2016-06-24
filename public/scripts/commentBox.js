@@ -1,5 +1,8 @@
 "use strict";
 
+import CommentList from './CommentList.js';
+import CommentForm from './CommentForm.js';
+
 const CommentBox = React.createClass({
 	render: () => {
 		return (
@@ -12,3 +15,5 @@ const CommentBox = React.createClass({
 });
 
 ReactDOM.render(<CommentBox />, document.getElementById('content'));
+
+module.exports = CommentBox;

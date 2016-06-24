@@ -12,3 +12,5 @@ const Comment = React.createClass({
 		);
 	}
 });
+
+module.exports = Comment;
